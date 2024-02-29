@@ -5,7 +5,7 @@ public class Minesweeper {
     int x = 5;
     public static void main(String[] args) {
         Minesweeper line1 = new Minesweeper();
-        System.out.println(Minesweeper.x);
+        System.out.println(Minesweeper.x); //git testgit 
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
 
