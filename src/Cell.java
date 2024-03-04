@@ -5,6 +5,12 @@ public class Cell {
         this.bomb = true;
     }
 
+    public void searchbomb() {
+        if (this.bomb == true) {
+            
+        }
+    }
+
     public void checkbomb() {
         if (this.bomb == true) {
             System.out.println("There's a bomb");

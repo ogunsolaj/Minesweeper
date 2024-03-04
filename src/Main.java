@@ -92,7 +92,11 @@ public class Main {
                        }
                        grid[xcoord][ycoord].checkbomb();
 
-                       
+                       for (int i2 = xcoord; xcoord-1< i2 && i2< xcoord+1; i2++ ) {
+                           for (int j2 = ycoord; ycoord-1< j2 && j2< ycoord+1; j2++ ) {
+                               grid[i2][j2].searchbomb();
+                           }
+                       }
 
                    }
                }
