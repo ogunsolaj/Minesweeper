@@ -92,7 +92,7 @@ public class Main {
                        }
                        grid[xcoord][ycoord].checkbomb();
 
-                       for ( int i2 = xcoord; i2   )
+                       
 
                    }
                }
